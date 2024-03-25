@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.website_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 23.5px 81px;
+    background-color: #283844;
+    color: white;
+}
+.website_main{
+    background-color: #202c36;
+    height:100vh ;
+    padding: 48px 80px;
+}
+.section_input{
+    display: flex;
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    align-items: center;
+    gap: 24px;
+    border-radius: 5px;
+
+}
+.section_input>img{
+    width: 18px;
+    height: 18px;
+    margin-left: 32px;
+}
+.section_input>input{
+    width: 136px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.section_input>input::placeholder{
+    color: white;
+}
+.section_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 50px;
+}
+.card_Germany{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Germany>img{
+    width: 100%;
+   height: 164px;
+   
+}
+.card_Germany>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Germany>p{
+    font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+color: #FFFFFF;
+margin-left: 20px;
+padding-top: 10px;
+}
+.card_America{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_America>img{
+    width: 100%;
+    height: 164px;
+}
+.card_America>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_America>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_Brazil{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Brazil>img{
+    width: 100%;
+    height: 164px;
+}
+.card_Brazil>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Brazil>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_Iceland{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Iceland>img{
+    width: 100%;
+    height: 164px;
+}
+.card_Iceland>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Iceland>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_Afganiston{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Afganiston>img{
+    width: 100%;
+    height: 164px;
+}
+.card_Afganiston>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Afganiston>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_Aland{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Aland>img{
+    width: 100%;
+    height: 164px;
+}
+.card_Aland>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Aland>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_Albania{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_Albania>img{
+    width: 100%;
+    height: 164px;
+}
+.card_Albania>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_Albania>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.card_ALgaria{
+    width: 264px;
+    height: 336px;
+    border: 1px solid none;
+    background-color: #283844;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card_ALgaria>img{
+    width: 100%;
+    height: 164px;
+}
+.card_ALgaria>h2{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.card_ALgaria>p{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+@media (max-width:430px){
+    body{
+        width: 430px;
+        height: 100vh;
+    }
+    .website_header{
+        padding: 30px 16px;
+    }
+    .website_main{
+        padding: 24px 16px;
+    }
+    .section_input{
+        width: 100%;
+    }
+    
+}
